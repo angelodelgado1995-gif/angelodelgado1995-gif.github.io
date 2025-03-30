@@ -1,0 +1,16 @@
+2 point:  Link to Figma document -- Use the Figma formatting that I use here for full points. It must outline the fonts, colors and sizes that you choose for this assignment. 
+1 points: Student has submitted code
+0-7 points: Student’s assignment has demonstrated deliverables of the assignment
+
+
+Create an html file with the following: 
+
+ 
+
++1 The proper HTML structure (!Doc type, head, body etc...) (Real) 
++1 Create a nav section (Real)  
++1 Create two sections (Real)
++1 Create two parents and two children (Real)   
++1 Implement either a linked css or included css -  DO NOT USE INLINE (Real)  
++1 Implement fonts, colors and font sizes  (Real)
++1 Use pseudoclasses for your links (Real) 
