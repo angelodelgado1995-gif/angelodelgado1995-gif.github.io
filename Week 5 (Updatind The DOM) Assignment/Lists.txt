@@ -1,0 +1,21 @@
+1 point: Student has submitted code 
+
+1 point: Flowchart on Figma, on Google Slides or anything that showcases how your javascript interacts with one another (see example in Javascript video) 
+
+8 points: student has achieved the below goals 
+
+1pt student uses either the <script>....</script> within the document or links an external js doc 
+When you click on the hamburger menu  this icon: image.png  it shows and hides the side nav bar. I have already taken care of the positioning for you.    (2pts) 
+HINT you will need to create a global boolean that controls this (isOpen = true)  
+1 point:  click on the hamburger menu and the side menu hides 
+1 point: click on the hamburger menu and the side menu shows 
+When the nav bar is hidden, the page changes width  (3pts)  -- see figma file below 
+1 point:  When the side bar is shown - the content is in the original place  (hint: EASY, it's done already - you just need to make sure it goes back to its default!)
+2 point:  When the side bar is not shown - the content moves over and takes up more room. 
+on MOBILE the side bar nav must take up the full screen, and users need to click the menu button to hide it again  (see figma file below and check out apple.com in the responsive view for more info)  (3pts)  HINT: this is easier than you think!!! This is just all CSS :) 
+1 point: the side bar is no longer on the top, it's hidden behind the hamburger menu 
+1 point: the nav bar is shown and hidden by the hamburger menu 
+
+Extra Credit for Animation  (it's possible for you to do this with classes and transitions) +3 
+
+Step 3:  Upload this to your Github repo and name it anything other than index.html. this is important! If you upload it as index.html it'll replace your front page. 
