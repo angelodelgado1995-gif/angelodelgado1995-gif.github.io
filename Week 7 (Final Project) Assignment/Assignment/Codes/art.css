@@ -1,0 +1,1178 @@
+*
+
+{
+    background-color: blue;
+}
+
+.hamburgerStyle > .hamburgerStyleButton {
+    position: fixed;
+    left: 105px;
+    top: 25px;
+    color: gold;
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;
+    border-style: solid;
+    border-color: gold;
+    display: block;
+    z-index: 1;
+    
+}
+
+.hamburgerStyle:link > .hamburgerStyleButton {
+    position: fixed;
+    left: 105px;
+    top: 25px;
+    color: gold;
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;
+    border-style: solid;
+    border-color: gold;
+    display: block;
+    z-index: 1;
+    
+}
+
+.hamburgerStyle:visited > .hamburgerStyleButton {
+    position: fixed;
+    left: 105px;
+    top: 25px;
+    color: gold;
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;
+    border-style: solid;
+    border-color: gold;
+    display: block;
+    z-index: 1;
+    
+}
+
+.hamburgerStyle:hover > .hamburgerStyleButton {
+    position: fixed;
+    left: 105px;
+    top: 25px;
+    color: red;
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;
+    border-style: solid;
+    border-color: red;
+    display: block;
+    transition: 0.3s;
+    z-index: 1;
+    
+}
+
+.hamburgerStyle:active > .hamburgerStyleButton {
+    position: fixed;
+    left: 105px;
+    top: 25px;
+    color: white;
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    display: block;
+    transition: 0.1s;
+    z-index: 1;
+    
+}
+
+#todayDateStyle > .todayDateStyleButton {
+    position: fixed;
+    left: 145px;
+    top: 25px;
+    color: gold;
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;
+    border-style: solid;
+    border-color: gold;
+    display: block;
+    z-index: 1;
+
+}
+
+.mesaJrHighSideBar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 0;
+  height: 100%;
+  background-color: gold;
+  padding-top: 60px;
+  transition: 0.5s;
+  z-index: 1;
+  overflow-x: hidden; 
+  
+}
+
+
+.mesaJrHighSideBar > a:link {
+  display: block;
+  position: relative;
+  top: -91px;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif, Times, serif;
+  font-size: 25px;
+  font-style: oblique;
+  color: blue;
+  background-color: gold;
+  padding: 74px 8px 8px 32px;
+  transition: 0.3s;
+  
+}
+
+.mesaJrHighSideBar > a:visited {
+    display: block;
+    position: relative;
+    top: -91px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif, Times, serif;
+    font-size: 25px;
+    font-style: oblique;
+    color: blue;
+    background-color:gold;
+    padding: 74px 8px 8px 32px;
+    transition: 0.3s;
+    
+}
+
+.mesaJrHighSideBar > a:hover {
+    color: red;
+
+}
+
+.mesaJrHighSideBar > a:active {
+    color: white;
+    transition: 0.1s;
+
+
+}
+
+.mesaJrHighSideBar > .xButton1 {
+    position: absolute;
+    left: 45px;
+    top: 332px; 
+    font-size: 36px;
+    margin-left: 50px;
+
+}
+
+.todaysDateStyle > .todaysDateStyleButton {
+    position: fixed;
+    right: 105px;
+    top: 25px;
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;
+    border-style: solid;
+    border-color: gold;
+    display: block;
+    z-index: 1;
+
+}
+
+.todaysDateStyle:link > .todaysDateStyleButton {
+    position: fixed;
+    right: 105px;
+    top: 25px;
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;
+    border-style: solid;
+    border-color: gold;
+    display: block;
+    z-index: 1;
+
+}
+
+.todaysDateStyle:visited > .todaysDateStyleButton {
+    position: fixed;
+    right: 105px;
+    top: 25px;
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;
+    border-style: solid;
+    border-color: gold;
+    display: block;
+    z-index: 1;
+
+}
+
+.todaysDateStyle:hover > .todaysDateStyleButton {
+    position: fixed;
+    right: 105px;
+    top: 25px;
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;
+    border-style: solid;
+    border-color: red;
+    display: block;
+    z-index: 1;
+    transition: 0.3s;
+
+}
+
+.todaysDateStyle:active > .todaysDateStyleButton {
+    position: fixed;
+    right: 105px;
+    top: 25px;
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    display: block;
+    z-index: 1;
+    transition: 0.1s;
+
+}
+
+.todaysDateSideBar {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 0%;
+    background-color: gray;
+    transition: 0.5s;
+    z-index: 1;
+    overflow-x: hidden; 
+
+}
+
+.todaysDateSideBar > a:link {
+    display: block;
+    position: relative;
+    top: -91px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif, Times, serif;
+    font-size: 25px;
+    font-style: oblique;
+    color: white;
+    background-color: gray;
+    padding: 74px 8px 8px 32px;
+    transition: 0.3s;
+
+}
+
+.todaysDateSideBar > a:visited {
+    display: block;
+    position: relative;
+    top: -91px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif, Times, serif;
+    font-size: 25px;
+    font-style: oblique;
+    color: white;
+    background-color: gray;
+    padding: 74px 8px 8px 32px;
+    transition: 0.3s;
+
+}
+
+.todaysDateSideBar > .xButton2 {
+    position: absolute;
+    left: 345px;
+    top: 122px; 
+    font-size: 36px;
+    margin-left: 243px;
+
+}
+
+.todaysDateSideBar > .xButton2:hover {
+    color: gold
+}
+
+.todaysDateSideBar > .xButton2:active {
+    color: red;
+    transition: 0.1s;
+}
+
+.todayDateNewsTexture {
+    position: absolute;
+    top: 110px;
+    left: 565px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: white;
+    background-color: gray;
+
+}
+
+#todaysDateTexture {
+    position: absolute;
+    top: 160px;
+    left: 305px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: white;
+    background-color: gray;
+
+}
+
+#mjhsTitleStyle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: x-large;
+    color: gold;
+
+}
+
+#nicknamemascotStyle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: x-large;
+    color: gold;
+
+}
+
+#schoolYearsActiveStyle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: x-large;
+    color: gold;
+
+}
+
+#mjhsCampus {
+    position: absolute;
+    width: 590px;
+    height: 400px;
+    left: 350px;
+    top: 165px;
+    background-color: gold;
+
+}
+
+#mjhsCampusImageStyle {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 550px;
+    height: 360px;
+
+}
+
+#mjhsHistory {
+    position: absolute;
+    width: 590px;
+    height: 150px;
+    left: 20px;
+    top: 615px;
+    background-color: gold;
+
+}
+
+.mjhstitleHistoryStyle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color: gold;
+
+}
+
+.gotoStyle {
+    position: absolute;
+    left: 223px;
+    top: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color: gold;
+
+}
+
+#historyNextPageStyle > .historyNextPageButtonStyle {
+    position: absolute;
+    left: 282px;
+    top: 73px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+
+}
+
+#historyNextPageStyle:link > .historyNextPageButtonStyle {
+    position: absolute;
+    left: 282px;
+    top: 73px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+
+}
+
+#historyNextPageStyle:visited > .historyNextPageButtonStyle {
+    position: absolute;
+    left: 282px;
+    top: 73px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+
+}
+
+#historyNextPageStyle:hover > .historyNextPageButtonStyle {
+    position: absolute;
+    left: 282px;
+    top: 73px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: gold;
+    background-color:blue;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+#historyNextPageStyle:active > .historyNextPageButtonStyle {
+    position: absolute;
+    left: 282px;
+    top: 73px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: red;
+    background-color: white;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: red;
+    text-decoration: none;
+
+}
+
+#mjhsFunFacts {
+    position: absolute;
+    width: 590px;
+    height: 150px;
+    right: 20px;
+    top: 615px;
+    background-color: gold;
+
+}
+
+.mjhsFunFactsStyle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color: gold;
+
+}
+
+.gotoStyle1 {
+    position: absolute;
+    right: 323px;
+    top: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color: gold;
+}
+
+#funFactsNextPageStyle > .funFactsNextPageButtonStyle {
+    position: absolute;
+    left: 270px;
+    top: 73px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+
+}
+
+#funFactsNextPageStyle:link > .funFactsNextPageButtonStyle {
+    position: absolute;
+    left: 270px;
+    top: 73px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+
+}
+
+#funFactsNextPageStyle:visited > .funFactsNextPageButtonStyle {
+    position: absolute;
+    left: 270px;
+    top: 73px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+
+}
+
+#funFactsNextPageStyle:hover > .funFactsNextPageButtonStyle {
+    position: absolute;
+    left: 270px;
+    top: 73px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: gold;
+    background-color: blue;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+#funFactsNextPageStyle:active > .funFactsNextPageButtonStyle {
+    position: absolute;
+    left: 270px;
+    top: 73px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: red;
+    background-color: white;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: red;
+    text-decoration: none;
+    transition: 0.1s;
+
+}
+
+
+#mjhsMascotStyle {
+    position: absolute;
+    left: 83px;
+    top: 242px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: x-large;
+    color: gold;
+
+}
+
+#mjhsMascotLogoImageStyle {
+    position: absolute;
+    left: 2px;
+    top: 80px;
+    width: 150px;
+    height: 160px;
+    border-style: solid;
+    border-color: gold;
+}
+
+#mjhsAdressStyle {
+    position: absolute;
+    right: 103px;
+    top: 242px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: x-large;
+    color: gold;
+
+}
+
+.mjhsAdressTextureStyle {
+    position: absolute;
+    right: -33px;
+    top: 72px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: x-large;
+    color: gold;
+
+}
+
+#mjhsPhotos {
+    position: absolute;
+    width: 590px;
+    height: 700px;
+    left: 20px;
+    top: 815px;
+    background-color: gold;
+
+}
+
+.mjhsPhotosStyle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color: gold;
+
+}
+
+#mjhsSchoolLogoCampusImageStyle {
+    position: absolute;
+    left: 15px;
+    top: 80px;
+    width: 270px;
+    height: 250px;
+
+}
+
+#oldMJHSCampusImageStyle {
+    position: absolute;
+    right: 15px;
+    top: 80px;
+    width: 270px;
+    height: 250px;
+
+}
+
+#mjhsBuildingImageStyle {
+    position: absolute;
+    left: 15px;
+    bottom: 100px;
+    width: 270px;
+    height: 250px;
+
+}
+
+#mjhsSportsImageStyle {
+    position: absolute;
+    right: 15px;
+    bottom: 100px;
+    width: 270px;
+    height: 250px;
+
+}
+
+.soarTextureStyle {
+    position: absolute;
+    left: 260px;
+    top: 615px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color: gold;
+
+}
+
+#mjhsNow {
+    position: absolute;
+    width: 590px;
+    height: 700px;
+    right: 20px;
+    top: 815px;
+    background-color: gold;    
+
+}
+
+.mjhsNowStyle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color: gold;
+
+}
+
+#eagleParkImageStyle {
+    position: absolute;
+    right: 15px;
+    top: 80px;
+    width: 560px;
+    height: 250px;
+
+}
+
+.eagleParkTitleTextureStyle {
+    position: absolute;
+    right: 235px;
+    bottom: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color: gold;
+
+}
+
+.eagleParkTextureStyle {
+    position: absolute;
+    right: 1px;
+    bottom: 255px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: small;
+    color: blue;
+    background-color: gold;
+
+}
+
+.websiteLinkStyle {
+    position: absolute;
+    right: 220px;
+    bottom: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color: gold;
+
+}
+
+.visitStyle {
+    position: absolute;
+    right: 313px;
+    bottom: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color: gold;
+
+}
+
+#eagleParkLinkStyle > .eagleParkLinkButtonStyle {
+    position: absolute;
+    right: 205px;
+    bottom: 163px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+
+}
+
+#eagleParkLinkStyle:link > .eagleParkLinkButtonStyle {
+    position: absolute;
+    right: 205px;
+    bottom: 163px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+
+}
+
+#eagleParkLinkStyle:visited > .eagleParkLinkButtonStyle {
+    position: absolute;
+    right: 205px;
+    bottom: 163px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+
+}
+
+#eagleParkLinkStyle:hover > .eagleParkLinkButtonStyle {
+    position: absolute;
+    right: 205px;
+    bottom: 163px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: gold;
+    background-color:blue;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+#eagleParkLinkStyle:active > .eagleParkLinkButtonStyle {
+    position: absolute;
+    right: 205px;
+    bottom: 163px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: red;
+    background-color: white;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: red;
+    text-decoration: none;
+    transition: 0.1s;
+
+}
+
+.fox10PhoenixVideoSourceLinkStyle {
+    position: absolute;
+    right: 195px;
+    bottom: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color: gold;
+
+}
+
+.visit1Style {
+    position: absolute;
+    right: 348px;
+    bottom: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color: gold;
+
+}
+
+#fox10PhoenixVideoSourceLinkStyle > .fox10PhoenixVideoSourceLinkStyleLinkButtonStyle {
+    position: absolute;
+    right: 158px;
+    bottom: 53px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+
+}
+
+#fox10PhoenixVideoSourceLinkStyle:link > .fox10PhoenixVideoSourceLinkStyleLinkButtonStyle {
+    position: absolute;
+    right: 158px;
+    bottom: 53px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+
+}
+
+#fox10PhoenixVideoSourceLinkStyle:visited > .fox10PhoenixVideoSourceLinkStyleLinkButtonStyle {
+    position: absolute;
+    right: 158px;
+    bottom: 53px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+
+}
+
+#fox10PhoenixVideoSourceLinkStyle:hover > .fox10PhoenixVideoSourceLinkStyleLinkButtonStyle {
+    position: absolute;
+    right: 158px;
+    bottom: 53px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: yellow;
+    background-color:blue;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+#fox10PhoenixVideoSourceLinkStyle:active > .fox10PhoenixVideoSourceLinkStyleLinkButtonStyle {
+    position: absolute;
+    right: 158px;
+    bottom: 53px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: red;
+    background-color:white;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: red;
+    text-decoration: none;
+    transition: 0.1s;
+
+}
+
+#mascotAnimationandGIF {
+    position: absolute;
+    width: 590px;
+    height: 400px;
+    left: 20px;
+    top: 1565px;
+    background-color: gold;
+
+}
+
+.mascotAnimationandGIFStyle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color: gold;
+
+}
+
+#oldCartoonEagleFlyingAnimationGIFStyle {
+    position: absolute;
+    left: 15px;
+    top: 80px;
+    width: 560px;
+    height: 250px;
+    background-color: gold;
+
+}
+
+.gotoStyle2 {
+    position: absolute;
+    left: 183px;
+    bottom: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color: gold;
+
+}
+
+#animationandGIFStyle > .animationandGIFStyle {
+    position: absolute;
+    left: 242px;
+    bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+
+}
+
+#animationandGIFStyle:link > .animationandGIFStyle {
+    position: absolute;
+    left: 242px;
+    bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+    
+}
+
+#animationandGIFStyle:visited > .animationandGIFStyle {
+    position: absolute;
+    left: 242px;
+    bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+    
+}
+
+#animationandGIFStyle:hover > .animationandGIFStyle {
+    position: absolute;
+    left: 242px;
+    bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: gold;
+    background-color:blue;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+#animationandGIFStyle:active > .animationandGIFStyle {
+    position: absolute;
+    left: 242px;
+    bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: red;
+    background-color:white;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: red;
+    text-decoration: none;
+    transition: 0.1s;
+    
+}
+
+#mathProblem {
+    position: absolute;
+    width: 590px;
+    height: 400px;
+    right: 20px;
+    top: 1565px;
+    background-color: gold;
+
+}
+
+.mathSolutionStyle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color: gold;
+    
+}
+
+.mathSolutionFormulaStyle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: x-small;
+    color: blue;
+    background-color: gold;
+
+}
+
+.mathSolutionProblemStyle1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: x-large;
+    color: blue;
+    background-color: gold;
+
+}
+
+.mathSolutionProblemStyle2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: x-large;
+    color: blue;
+    background-color: gold;
+
+}
+
+.mathSolutionProblemStyle3 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: x-large;
+    color: blue;
+    background-color: gold;
+
+}
+
+.mathSolutionProblemStyle4 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: x-large;
+    color: blue;
+    background-color: gold;
+
+}
+
+.mathSolutionProblemStyle5 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: x-large;
+    color: blue;
+    background-color: gold;
+
+}
+
+

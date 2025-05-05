@@ -1,0 +1,325 @@
+*
+
+{
+    background-color: white;
+}
+
+#funFactsMainImageStyle {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1280px;
+    height: 585px;
+
+}
+
+#funFactsBacktoMenuStyle > .funFactsbacktoMenuButton {
+    position: absolute;
+    left: 57px;
+    top: 63px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+    z-index: 15;
+
+}
+
+#funFactsBacktoMenuStyle:link > .funFactsbacktoMenuButton {
+    position: absolute;
+    left: 57px;
+    top: 63px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+    z-index: 15;
+
+}
+
+#funFactsBacktoMenuStyle:active > .funFactsbacktoMenuButton {
+    position: absolute;
+    left: 57px;
+    top: 63px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+    z-index: 15;
+
+}
+
+#funFactsBacktoMenuStyle:hover > .funFactsbacktoMenuButton {
+    position: absolute;
+    left: 57px;
+    top: 63px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: gold;
+    background-color:blue;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    z-index: 15;
+
+}
+
+#funFactsBacktoMenuStyle:active > .funFactsbacktoMenuButton {
+    position: absolute;
+    left: 57px;
+    top: 63px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: red;
+    background-color:white;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: red;
+    text-decoration: none;
+    transition: 0.1s;
+    z-index: 15;
+
+}
+
+#funFactsYellowPageStyle {
+    position: absolute;
+    width: 790px;
+    height: 416px;
+    left: 250px;
+    top: 165px;
+    background-color: gold;
+    border-style: solid;
+    border-color: blue;
+    z-index: 10;
+
+}
+
+#mjhsFunFactsSidebarStyle {
+    position: absolute;
+    width: 790px;
+    height: 50px;
+    left: 250px;
+    top: 45px;
+    background-color: gold;
+    border-style: solid;
+    border-color: blue;
+    z-index: 10;
+    
+}
+
+.mjhsFunFactsTextureStyle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: x-large;
+    color: blue;
+    padding-top: 16px;
+
+}
+
+#funFactsWhitePageStyle {
+    position: absolute;
+    width: 700px;
+    height: 336px;
+    left: 43px;
+    top: 40px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    z-index: 10;
+
+}
+
+.establishedTextureStyle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: small;
+    color: black;
+
+}
+
+.closedTextureStyle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: small;
+    color: black;
+
+}
+
+.demolishedTextureStyle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: small;
+    color: black;
+
+}
+
+.gradeTextureStyle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: small;
+    color: black;
+
+}
+
+.mascotTextureStyle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: small;
+    color: black;
+
+}
+
+.elementarySchoolsFeederPatternTextureStyle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: small;
+    color: black;
+
+}
+
+.mjhsFeederPatternTextureStyle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: small;
+    color: black;
+
+}
+
+.funsTextureStyle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: x-large;
+    color: black;
+}
+
+.futureElementarySchoolsFedderPatternTextureStyle {
+    position: absolute;
+    left: 15px;
+    bottom: 34px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: small;
+    color: black;
+
+}
+
+.funFactsLinkWebsiteTextureStyle {
+    position: absolute;
+    bottom: -5px;
+    left: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: medium;
+    color: black;
+}
+
+#mpsazBoundariesLinkStyle > .mpsazBoundariesLinkButton {
+    position: absolute;
+    left: 370px;
+    bottom: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+
+}
+
+#mpsazBoundariesLinkStyle:link > .mpsazBoundariesLinkButton {
+    position: absolute;
+    left: 370px;
+    bottom: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+
+}
+
+#mpsazBoundariesLinkStyle:visited > .mpsazBoundariesLinkButton {
+    position: absolute;
+    left: 370px;
+    bottom: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+
+}
+
+#mpsazBoundariesLinkStyle:hover > .mpsazBoundariesLinkButton {
+    position: absolute;
+    left: 370px;
+    bottom: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: gold;
+    background-color:blue;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+#mpsazBoundariesLinkStyle:active > .mpsazBoundariesLinkButton {
+    position: absolute;
+    left: 370px;
+    bottom: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: red;
+    background-color:white;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: red;
+    text-decoration: none;
+    transition: 0.1s;
+
+}

@@ -1,0 +1,162 @@
+*
+
+{
+    background-color: white;
+}
+
+#historyMainImageStyle {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1280px;
+    height: 585px;
+
+}
+
+#historyBacktoMenuStyle > .historybacktoMenuButton {
+    position: absolute;
+    left: 57px;
+    top: 63px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+    z-index: 15;
+
+}
+
+#historyBacktoMenuStyle:link > .historybacktoMenuButton {
+    position: absolute;
+    left: 57px;
+    top: 63px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+    z-index: 15;
+
+}
+
+#historyBacktoMenuStyle:active > .historybacktoMenuButton {
+    position: absolute;
+    left: 57px;
+    top: 63px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: blue;
+    background-color:gold;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+    z-index: 15;
+
+}
+
+#historyBacktoMenuStyle:hover > .historybacktoMenuButton {
+    position: absolute;
+    left: 57px;
+    top: 63px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: gold;
+    background-color:blue;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    z-index: 15;
+
+}
+
+#historyBacktoMenuStyle:active > .historybacktoMenuButton {
+    position: absolute;
+    left: 57px;
+    top: 63px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: red;
+    background-color:white;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: red;
+    text-decoration: none;
+    transition: 0.1s;
+    z-index: 15;
+
+}
+
+#historyYellowPageStyle {
+    position: absolute;
+    width: 790px;
+    height: 416px;
+    left: 250px;
+    top: 165px;
+    background-color: gold;
+    border-style: solid;
+    border-color: blue;
+    z-index: 10;
+
+}
+
+#mjhsHistorySidebarStyle {
+    position: absolute;
+    width: 790px;
+    height: 50px;
+    left: 250px;
+    top: 45px;
+    background-color: gold;
+    border-style: solid;
+    border-color: blue;
+    z-index: 10;
+    
+}
+
+.mjhsHistoryTextureStyle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: x-large;
+    color: blue;
+    padding-top: 16px;
+
+}
+
+#historyWhitePageStyle {
+    position: absolute;
+    width: 700px;
+    height: 336px;
+    left: 43px;
+    top: 40px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    z-index: 10;
+
+}
+
+.historyTextureStyle {
+    position: absolute;
+    left: 5px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: black;
+
+}
+
